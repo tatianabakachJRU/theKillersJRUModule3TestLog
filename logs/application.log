@@ -1,0 +1,11 @@
+21:52:55.775 [main] INFO  com.javarush.lecture_5.UserApp - Starting application
+21:52:55.798 [main] INFO  com.javarush.lecture_5.service.UserService - User Service Initialize
+21:52:55.812 [main] INFO  com.javarush.lecture_5.service.UserService - User found: User{id=1, name='Alice', email='alice@example.com'}
+21:52:55.812 [main] INFO  com.javarush.lecture_5.service.UserService - User found: User{id=2, name='Bob', email='bob@example.com'}
+21:52:55.813 [main] DEBUG com.javarush.lecture_5.service.UserService - Looking for user with id: 1
+21:52:55.815 [main] INFO  com.javarush.lecture_5.service.UserService - Found user: User{id=1, name='Alice', email='alice@example.com'}
+21:52:55.815 [main] DEBUG com.javarush.lecture_5.service.UserService - Looking for user with id: 100
+21:52:55.815 [main] WARN  com.javarush.lecture_5.service.UserService - User with id: 100 not found
+21:52:55.816 [main] INFO  com.javarush.lecture_5.service.UserService - Successfully adding new user: User{id=3, name='Anna', email='anna@example.com'}
+21:52:55.816 [main] INFO  com.javarush.lecture_5.service.UserService - Successfully adding new user: User{id=4, name='', email='invalid-email'}
+21:52:55.816 [main] INFO  com.javarush.lecture_5.UserApp - Finished application
